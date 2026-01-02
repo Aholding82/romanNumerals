@@ -10,6 +10,12 @@
 # D             500
 # M             1000
 
+# The HINT says it's easy to solve if you work the string from back to front and use a map() function 
+# can also use enumerate
+#
+# This was the first attempt that felt very rough and grindy? Just felt like the operations could be done
+# by some form of in built functions
+
 class Solution:
     def romanToInt(self,s):
         self.s = s
