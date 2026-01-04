@@ -51,7 +51,7 @@ class Solution:
                     total = total - 200
         return total
         
-input = 'XC'
+input = 'IV'
 c = Solution()
 results = c.romantoInt(input)
-print(results)
+print("The number is " + str(results) + "!")
